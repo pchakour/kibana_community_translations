@@ -76,7 +76,12 @@
     }
   },
   "messages": {
-    "common.ui.aggTypes.filters.addFilterButtonLabel": "Ajouter un filtre",
-    "data.filter.filterBar.addFilterButtonLabel": "Ajouter un filtre"  
+    "common.ui.aggResponse.allDocsTitle": "Tous les documents",
+    "common.ui.aggResponse.fieldLabel": "champ",
+    "common.ui.aggResponse.valueLabel": "valeur",
+    "common.ui.aggTypes.aggNotValidLabel": "- agg non valide -",
+    "common.ui.aggTypes.aggregateWith.noAggsErrorTooltip": "Le champ choisi n'a aucune agrégation compatible.",
+    "common.ui.aggTypes.aggregateWithLabel": "Agréger avec",
+    "common.ui.aggTypes.aggregateWithTooltip": "Choisissez une stratégie pour combiner plusieurs résultats ou un champ à valeurs multiples en une seule métrique."
   }
 }

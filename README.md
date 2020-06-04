@@ -70,6 +70,91 @@ You have to follow these steps:
 - Create a file named ``{locale}.json`` in the ``translations`` directory
   where ``{locale}`` is [ISO 639 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
+- Add this content to your file:
+
+``` json
+{
+  "formats": {
+    "number": {
+      "currency": {
+        "style": "currency"
+      },
+      "percent": {
+        "style": "percent"
+      }
+    },
+    "date": {
+      "short": {
+        "month": "numeric",
+        "day": "numeric",
+        "year": "2-digit"
+      },
+      "medium": {
+        "month": "short",
+        "day": "numeric",
+        "year": "numeric"
+      },
+      "long": {
+        "month": "long",
+        "day": "numeric",
+        "year": "numeric"
+      },
+      "full": {
+        "weekday": "long",
+        "month": "long",
+        "day": "numeric",
+        "year": "numeric"
+      }
+    },
+    "time": {
+      "short": {
+        "hour": "numeric",
+        "minute": "numeric"
+      },
+      "medium": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric"
+      },
+      "long": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric",
+        "timeZoneName": "short"
+      },
+      "full": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric",
+        "timeZoneName": "short"
+      }
+    },
+    "relative": {
+      "years": {
+        "units": "year"
+      },
+      "months": {
+        "units": "month"
+      },
+      "days": {
+        "units": "day"
+      },
+      "hours": {
+        "units": "hour"
+      },
+      "minutes": {
+        "units": "minute"
+      },
+      "seconds": {
+        "units": "second"
+      }
+    }
+  },
+  "messages": {
+  }
+}
+```
+
 - Add in the ``.i18nrc.json`` file, the path to the new translation file
 
 - Update this README to add your language in the available languages part
