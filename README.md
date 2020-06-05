@@ -159,6 +159,9 @@ You have to follow these steps:
 
 - Update this README to add your language in the available languages part
 
+#### Note
+DO NOT Translate the text between {} (example : {title})
+
 ### Debugging tools
 
 I18n tools are available in the Kibana repository.  
